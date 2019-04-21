@@ -13,7 +13,7 @@ class Ship(Sprite):
         self.ai_settings = ai_settings
 
         # Load image.
-        self.image = pygame.image.load("../images/ship2.bmp")
+        self.image = pygame.image.load("images/ship2.bmp")
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
